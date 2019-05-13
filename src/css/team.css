@@ -23,7 +23,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.9);
     z-index: 21;
     transition: all 0.5s;
     opacity: 0;
@@ -34,11 +34,12 @@
     top: 50%;
     left: 50%;
     width: 90%;
-    max-width: 900px;
+    max-height: 70%;
     transform: translate(-50%,-50%);
     background-color: #FFF;
     border-radius: 1vw;
     font-size: 2.3vh;
+    overflow-y: scroll;
 }
 
 .cardMember{
@@ -54,10 +55,15 @@
     font-family: sans-serif;
     font-weight: bolder;
     font-size: 4vh;
-    right: 0;
+    right: 20;
     padding: 0.9vw;
     position: relative;
     text-align: right;
     cursor: pointer;
     z-index: 123;
+}
+
+.board{
+    background-color: #727272;
+    color:#FFF;
 }
