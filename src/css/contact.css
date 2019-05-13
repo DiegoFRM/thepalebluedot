@@ -1,0 +1,92 @@
+#topMenu{
+    position: relative;
+    background-color: rgba(250, 250, 250,1);
+    color:#58595B !important;
+}
+
+.imageTeamMain{
+    width: 100%; 
+    background: url("../img/contacto.jpg") ;
+    background-size: cover;
+}
+
+
+.imageTeamMain img{
+    width: 100%;
+}
+
+.imgTeam{
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+#teamInfo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 21;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+#windowteamInfo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    max-width: 900px;
+    transform: translate(-50%,-50%);
+    background-color: #FFF;
+    border-radius: 1vw;
+    font-size: 2.3vh;
+}
+
+.cardMember{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#closeBtnWindow{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 4vh;
+    right: 0;
+    padding: 0.9vw;
+    position: relative;
+    text-align: right;
+    cursor: pointer;
+    z-index: 123;
+}
+
+.formContact{
+    background-color: rgba(0,0,0,0.5);
+    color:#FFF;
+}
+
+input{
+    border-radius: 1vw;
+    padding:0.3vh;
+}
+
+.message-input{
+    position:relative;
+    width: 100%;
+}
+
+.sendbtn{
+    position: relative;
+    background-color: #43B2DB;
+    color:#FFF;
+    border-radius: 0.5vw;
+    border:none;
+    padding: 0.5vw;
+    text-align: center;
+    width: 20%;
+}

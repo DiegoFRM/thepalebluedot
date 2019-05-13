@@ -1,0 +1,25 @@
+for(var i = 1;i<=4;i++ ){
+    $("#topbtn" + i).css("cursor","pointer");
+    $("#topbtn" + i).mouseover(function(){
+            $(this).addClass("activeBtnMenu");
+    });
+    $("#topbtn" + i).mouseout(function(){
+            $(this).removeClass("activeBtnMenu");
+    });
+}
+
+$("#topbtn1").click(function(){
+    window.open("index.html", "_self");
+});
+
+$("#topbtn2").click(function(){
+    window.open("index.html", "_self");
+});
+
+$("#topbtn3").click(function(){
+    window.open("team.html", "_self");
+});
+
+$("#topbtn4").click(function(){
+    window.open("contacto.html", "_self");
+});
