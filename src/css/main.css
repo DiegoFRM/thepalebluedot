@@ -243,6 +243,39 @@ footer{
 }
 
 
-@media (max-width: 991px) and (min-width: 768px) {
+.menuMovil{
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+    background-color: rgba(0,0,0,0.5);
+    padding: 1vh;
+}
 
+@media (max-width: 991px) and (min-width: 500px) {
+    body{
+
+        font-size: 20px !important;
+    }
+    
+.text1{
+    padding: 5vw;
+    font-size: 3vw;
+}    
+    
+.carrousel{
+    height:60%;
+    overflow: visible;
+}
+
+.carrousel img{
+    width: 100%;
+    transform: translate(0,0);
+}
+    
+.menugallery .dotmenugallery{
+    margin: 2vw;
+}    
+    
+    
+    
 }
