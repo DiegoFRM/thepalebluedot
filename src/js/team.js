@@ -52,13 +52,15 @@ Camina hacia el futuro, abriendo nuevas puertas y probando cosas nuevas, se curi
 nuestra curiosidad siempre nos conduce por nuevos caminos.”</i> <br>
 -Walt Disney
 <br>
+<br>
 Julio 17, 1990. Ilustrador y Diseñador Mexicano. Nacido y criado en una ciudad en medio
 del desierto. Le gusta: aprender toda clase de cosas innecesarios. Odia: La frase
 <i>"¡Compórtate como un adulto, por el amor de Dios!"</i>. Tiene experiencia en diseño Web,
 UI/UX y producción para medios. En su último trabajo se desempeñó como líder de
 ilustración para Yogome, una compañía nacional de video juegos educativos. Se sientecómodo trabajando en equipo, y conociendo más de la gente que lo rodea. Es apasionado cuando se trata de aprender sobre otras culturas, idiomas y estudios de género. Ama su trabajo como profesor de medio tiempo en una universidad y a su perro llamado Bob.`,
-    `“El objetivo del arte no es representar la apariencia externa de las cosas, sino su significado interior”<br>
+    `<i>“El objetivo del arte no es representar la apariencia externa de las cosas, sino su significado interior”</i><br>
 -Aristóteles.
+<br>
 <br>
 México, 1990. Amante de la filosofía del arte. Artista orgullosamente mexicana egresada de la licenciatura de Bellas Artes por parte del San Francisco Art Institute, espacio y tiempo en donde su vida cambio 360º. Al terminar regresó a su tierra natal, la CDMX. Trabajó como voluntaria en el Museo Jumex en donde aprendió técnicas pedagógicas para la enseñanza de arte contemporáneo. En el 2018 fue la directora de Espacio Fidencia, un espacio multicultural para artistas en México. Hoy en día cursa un diplomado en Arte Terapia por medio de la escuela Taller Mexicano de Arteterapia en la Ciudad de México.
 Grandes pasiones: Enseñarle a la gente a explorar su lado creativo y emocional a través de la pintura y diversión. En sus ratos libres ama cocinar comida vegetariana. Actualmente trabaja como Directora de
@@ -78,7 +80,7 @@ cortarse las alas. Sus herramientas predilectas para saciar su necesidad imperio
 En constante búsqueda de su reflejo en la pupila del Otro.    
     
     `,
-    "Diego es el programador frontend The Pale Blue Dot, nacido en la cuna de la mexicanidad Iztapalapa graduado de la carrera de  diseño gráfico, pero se enfocó más en la parte de programación donde encontró más su pasión, trabajando por 5 años como desarrollador e-learning haciendo interactivos y cursos en línea dio el salto a juegos en HMTL5 para la empresa Yogome. Junto a un gran equipo realizó aplicaciones en línea como reto cuantrix para Televisa.<br>Diego le gusta jugar juegos de arcade y competir con sus amigos en juegos de pelea, y su otra gran pasión son los autos."
+    "Diego es el programador frontend The Pale Blue Dot, nacido en la cuna de la mexicanidad Iztapalapa graduado de la carrera de diseño gráfico, pero se enfocó más en la parte de programación donde encontró su pasión, trabajando por 5 años como desarrollador e-learning haciendo interactivos y cursos en línea dio el salto a juegos en HMTL5 para la empresa Yogome. Junto a un gran equipo realizó aplicaciones en línea como reto cuantrix para Televisa.<br><br>Diego le gustan los juegos de arcade y competir con sus amigos en juegos de pelea, y su otra gran pasión son los autos."
 ]
 
 for(var i = 0; i<=photosTeam.length-1;i++){
