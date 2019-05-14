@@ -71,6 +71,14 @@ body{
     font-size: 1.3vw;
 }
 
+
+.text2{
+    text-align: center;
+    background-color: #E8E9EA;
+    padding: 4vw;
+    font-size: 1.5vw;
+}
+
 .imgInteractive{
     position: absolute;
     text-align: center;

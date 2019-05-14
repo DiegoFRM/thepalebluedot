@@ -13,7 +13,7 @@ $("#topbtn1").click(function(){
 });
 
 $("#topbtn2").click(function(){
-    window.open("index.html", "_self");
+    window.open("quehacemos.html", "_self");
 });
 
 $("#topbtn3").click(function(){
@@ -23,3 +23,8 @@ $("#topbtn3").click(function(){
 $("#topbtn4").click(function(){
     window.open("contacto.html", "_self");
 });
+
+    $("#topArrow").click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+
+    }); 

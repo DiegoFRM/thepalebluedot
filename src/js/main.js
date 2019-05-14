@@ -74,10 +74,6 @@ $("#interactiveBtn2").mouseout(function(){
 });
 
 
-$("#topbtn3").click(function(){
-    
-});
-
 
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
@@ -101,7 +97,4 @@ $("#topbtn3").click(function(){
        }
    });
 
-    $("#topArrow").click(function(){ 
-        $("html, body").animate({ scrollTop: 0 }, 600); 
 
-    }); 
