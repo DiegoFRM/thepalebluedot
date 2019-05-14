@@ -1,5 +1,17 @@
 $("#teamInfo").hide();
 
+var namesTeam = [
+    "<b>Carlos Michel</b> - Director General",
+    "<b>Verónica Pastrana</b> - Directora de Proyectos",
+    "<b>Pawel Lewinski</b> - Tecnología y Sistemas",
+    "<b>Humberto Zugasti</b> - Contenido educativo y arte",
+    "<b>Alejandra Morales</b> - Comunicación e imagen",
+    "<b>Julia Ivalú</b> - Plataforma educativa",
+    "<b>Diego Rojas</b> - UX/UI Frontend"
+
+]
+
+
 var photosTeam=[
     "Carlos.jpg",
     "vero.jpg",
@@ -19,8 +31,9 @@ como Momentum de BBVA, y New Ventures Exponential de Fomento Social Banamex.
 Carlos estudió Administración Financiera en el TEC de Monterrey y actualmente trata de
 “aprender a aprender” de los grandes: Charlie Munger, Nassim Taleb, Richard Feynman,
 Naval Ravikant, H.G. Wells, Borges.`,
-    `“La educación es el arma más poderosa que puedes usar para cambiar al mundo”
+    `<i>“La educación es el arma más poderosa que puedes usar para cambiar al mundo”</i>
     <br>- Nelson Mandela
+<br>
 <br>
 Ciudad de México, 1990. Nacida en luna llena. Filántropa, viajera, lectora y abogada. Disfruta del
 deporte, de las aventuras y las actividades rodeada de amigos y naturaleza. Procura aprender cosas
@@ -34,29 +47,27 @@ comunidades mexicanas, piensa que hay mucho trabajo por delante y que solo a tra
 educación y del pensamiento colectivo podrá la humanidad aprender a respetar, amar y cuidar el
 bello planeta al que llamamos “hogar”.`,
     "Pawel es programador fullstack y desarrollador de videojuegos. Trabajó 4 años en Yogome como desarrollador de videojuegos, desarrollador web y como lider de programación en el área de HTML5, en donde ayudó a coordinar, asesorar, capacitar y desarrollar software en conjunto con un grupo de 10 personas. Junto con el equipo, Pawel fue parte del desarrollo de alrededor de 200 minijuegos, un torneo multijugador de matemáticas usando distintos dispositivos a la vez, libros interactivos educativos, una sección de videos, sección de aventuras con batallas, la plataforma del torneo reto cuantrix para Televisa, entre muchos otros proyectos... Pawel le fascina la tecnología y siempre le gusta estar aprendiendo cosas nuevas, su mayor pasión son los videojuegos tanto jugar como crear.",
-    `“En este lugar perdemos demasiado tiempo mirando hacia atrás.<br>
+    `<i>“En este lugar perdemos demasiado tiempo mirando hacia atrás.<br>
 Camina hacia el futuro, abriendo nuevas puertas y probando cosas nuevas, se curioso… porque
-nuestra curiosidad siempre nos conduce por nuevos caminos.” <br>
+nuestra curiosidad siempre nos conduce por nuevos caminos.”</i> <br>
 -Walt Disney
 <br>
 Julio 17, 1990. Ilustrador y Diseñador Mexicano. Nacido y criado en una ciudad en medio
 del desierto. Le gusta: aprender toda clase de cosas innecesarios. Odia: La frase
-&quot;¡Compórtate como un adulto, por el amor de Dios!&quot;. Tiene experiencia en diseño Web,
+<i>"¡Compórtate como un adulto, por el amor de Dios!"</i>. Tiene experiencia en diseño Web,
 UI/UX y producción para medios. En su último trabajo se desempeñó como líder de
 ilustración para Yogome, una compañía nacional de video juegos educativos. Se sientecómodo trabajando en equipo, y conociendo más de la gente que lo rodea. Es apasionado cuando se trata de aprender sobre otras culturas, idiomas y estudios de género. Ama su trabajo como profesor de medio tiempo en una universidad y a su perro llamado Bob.`,
     `“El objetivo del arte no es representar la apariencia externa de las cosas, sino su significado interior”<br>
 -Aristóteles.
 <br>
-México, 1990. Amante de la filosofía del arte. Artista orgullosamente mexicana egresada de la licenciatura de
-Bellas Artes por parte del San Francisco Art Institute, espacio y tiempo en donde su vida cambio 360º. Al terminar regresó a su tierra natal, la CDMX. Trabajó como voluntaria en el Museo Jumex en donde aprendió técnicas pedagógicas para la enseñanza de arte contemporáneo. En el 2018 fue la directora de Espacio Fidencia, un espacio multicultural para artistas en México. Hoy en día cursa un diplomado en Arte Terapia por medio de la escuela Taller Mexicano de Arteterapia en la Ciudad de México.
+México, 1990. Amante de la filosofía del arte. Artista orgullosamente mexicana egresada de la licenciatura de Bellas Artes por parte del San Francisco Art Institute, espacio y tiempo en donde su vida cambio 360º. Al terminar regresó a su tierra natal, la CDMX. Trabajó como voluntaria en el Museo Jumex en donde aprendió técnicas pedagógicas para la enseñanza de arte contemporáneo. En el 2018 fue la directora de Espacio Fidencia, un espacio multicultural para artistas en México. Hoy en día cursa un diplomado en Arte Terapia por medio de la escuela Taller Mexicano de Arteterapia en la Ciudad de México.
 Grandes pasiones: Enseñarle a la gente a explorar su lado creativo y emocional a través de la pintura y diversión. En sus ratos libres ama cocinar comida vegetariana. Actualmente trabaja como Directora de
 Comunicación y Arte para The Pale Blue Dot llevándole a la gente de las comunidades la oportunidad de ser un explorador del mundo mediante prácticas artísticas.`,
-`“Estoy convencida que la educación es nuestra herramienta primordial que tenemos para lograr
+`<i>“Estoy convencida que la educación es nuestra herramienta primordial que tenemos para lograr
 escucharnos y entendernos a nosotros mismos y a los que nos rodean. La educación es un ejercicio de
-cultivo constante; nadie nunca tendría por qué dejar de aprender. Al final, citando al educador brasileño
-Paulo Freire, la educación per se no cambia al mundo, cambia a las personas que cambian al mundo. Y
-para eso estamos aquí nosotros, ¿no? ”
-<br>
+cultivo constante; nadie nunca tendría por qué dejar de aprender. Al final, citando al educador brasileño Paulo Freire, la educación per se no cambia al mundo, cambia a las personas que cambian al mundo. Y
+para eso estamos aquí nosotros, ¿no? ”</i>
+<br><br>
 Egresada de la licenciatura en Animación y Arte Digital por parte del Tecnológico de Monterrey Campus
 Estado de México. Con un Diplomado en Danza Terapéutica Humanística por parte de Sensodanza A.C., un Diplomado en Antropología del Arte por parte del Laboratorio Transdisciplinario de Investigación y
 Reinvensión, y con el tercer módulo finalizado del Diplomado de Escritura Literaria por parte de Literaria
@@ -74,6 +85,9 @@ for(var i = 0; i<=photosTeam.length-1;i++){
     $("#team" + [i+1]).attr("num",i);
     $("#team" + [i+1]).click(function(){
         var thisNum = $(this).attr("num");
+        
+        $("#nameMemberWindow").html(namesTeam[thisNum])
+        
         $("#photoInfo").attr("src","img/Portaretratos/"+ photosTeam[thisNum])
         $("#textInfo").html( bioTeam[thisNum] )
         showWindow();

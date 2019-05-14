@@ -39,7 +39,7 @@
     background-color: #FFF;
     border-radius: 1vw;
     font-size: 2.3vh;
-    overflow-y: scroll;
+    
 }
 
 .cardMember{
@@ -55,7 +55,7 @@
     font-family: sans-serif;
     font-weight: bolder;
     font-size: 4vh;
-    right: 20;
+    right: 0;
     padding: 0.9vw;
     position: relative;
     text-align: right;
@@ -66,4 +66,15 @@
 .board{
     background-color: #727272;
     color:#FFF;
+}
+
+.menuMovil{
+    position: relative;
+}
+
+.infoTeamScroll{
+    overflow-y: scroll;
+    height: 34vh;
+    position: relative;
+
 }
