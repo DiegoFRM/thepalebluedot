@@ -280,6 +280,32 @@ footer{
     padding: 1vh;
 }
 
+#menuMovilWindow{
+    position: fixed;
+    width: 80%;
+    height: 80%;
+    top:55%;
+    left: -50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,0.8);
+    z-index: 11111;
+    color: #FFF;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;  
+}
+
+.activeMenuMovil{
+    left: 50% !important;
+}
+
+a{
+    color:#FFF;
+}
+
+
 /*
 @media (min-width: 410px) {
     body{

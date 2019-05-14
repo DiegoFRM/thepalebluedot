@@ -28,3 +28,9 @@ $("#topbtn4").click(function(){
         $("html, body").animate({ scrollTop: 0 }, 600); 
 
     }); 
+
+
+$("#openCloseMenu").click(function(){
+    $(this).find("i").toggleClass("fa-times");
+    $("#menuMovilWindow").toggleClass("activeMenuMovil");
+});
