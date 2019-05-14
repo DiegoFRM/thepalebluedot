@@ -8,6 +8,10 @@ for(var i = 1;i<=4;i++ ){
     });
 }
 
+$(".logoTPBD").click(function(){
+    window.open("index.html", "_self");
+});
+
 $("#topbtn1").click(function(){
     window.open("index.html", "_self");
 });

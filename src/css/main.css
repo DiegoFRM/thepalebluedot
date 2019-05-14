@@ -304,6 +304,10 @@ a{
 }
 
 
+.logoTPBD{
+    cursor: pointer;
+}
+
 /*
 @media (min-width: 410px) {
     body{
