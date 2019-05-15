@@ -1,6 +1,7 @@
 var activeMenuMobil = false;
 var detectDevice;
 var language = "es";
+var countPhoto = 1;
 var arrayLanguage = [
     {
     es:{
@@ -99,12 +100,41 @@ $("#interactiveBtn2").mouseout(function(){
 
 $("#gallery1").click(function(){
     $("#galleryImage").attr("src","img/carrousel/photo1.jpg");
+    countPhoto = 1;
 });
 $("#gallery2").click(function(){
     $("#galleryImage").attr("src","img/carrousel/photo2.jpg");
+    countPhoto = 2;
 });
 $("#gallery3").click(function(){
     $("#galleryImage").attr("src","img/carrousel/photo3.jpg");
+    countPhoto = 3;
 });
 
 
+$(".btnQueHacemos").click(function(){
+    window.open("quehacemos.html", "_self");
+});
+
+$(".btnQuienesSomos").click(function(){
+    window.open("team.html", "_self");
+});
+
+
+
+function changePhoto(){
+   TweenMax.fromTo($("#galleryImage"),1,{alpha:1},{alpha:0,onComplete:nextPhoto,delay:5})
+}
+                   
+function nextPhoto(){
+        if(countPhoto == 3){
+            countPhoto = 1;
+        }else{
+            countPhoto++;
+        }
+       $("#galleryImage").attr("src","img/carrousel/photo"+ countPhoto +".jpg");
+        TweenMax.fromTo($("#galleryImage"),1,{alpha:0},{alpha:1,onComplete:changePhoto,delay:0.5})
+
+   }
+
+changePhoto();
