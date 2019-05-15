@@ -4,11 +4,8 @@
     color:#58595B !important;
 }
 
-.imageTeamMain{
-    width: 100%; 
-    background: url("../img/contacto.jpg") ;
-    background-size: cover;
-    background-position: top center;
+.imageContact{
+    background-image: url("../img/contacto.jpg");
 }
 
 

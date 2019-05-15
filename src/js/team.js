@@ -1,7 +1,7 @@
 $("#teamInfo").hide();
 
 var namesTeam = [
-    "<b>Carlos Michel</b> - Director General",
+    "<b>Carlos Michel</b> - CEO y fundador",
     "<b>Verónica Pastrana</b> - Directora de Proyectos",
     "<b>Pawel Lewinski</b> - Tecnología y Sistemas",
     "<b>Humberto Zugasti</b> - Contenido educativo y arte",
@@ -23,14 +23,14 @@ var photosTeam=[
 ];
 
 var bioTeam = [
-    `Carlos es originario del “Llano en Llamas” en Jalisco, México. Su libro favorito es “Pedro
+    `Carlos es originario del “Llano en Llamas” en Jalisco, México y su libro favorito es “Pedro
 Páramo”. Tiene más de 15 años de experiencia en Private Equity y Venture Capital. Es
-también CEO de Kurowi Games, empresa de Ed-Tech dedicada a generar contenido
+también CEO de Kurowi Games, empresa de Ed-Tech dedicada a desarrollar contenido
 educativo digital y juegos de video. Es mentor de emprendedores sociales para programas
 como Momentum de BBVA, y New Ventures Exponential de Fomento Social Banamex.
-Carlos estudió Administración Financiera en el TEC de Monterrey y actualmente trata de
+Carlos estudió Administración Financiera en el TEC de Monterrey, y actualmente trata de
 “aprender a aprender” de los grandes: Charlie Munger, Nassim Taleb, Richard Feynman,
-Naval Ravikant, H.G. Wells, Borges.`,
+Naval Ravikant, H.G. Wells, Borges...`,
     `<i>“La educación es el arma más poderosa que puedes usar para cambiar al mundo”</i>
     <br>- Nelson Mandela
 <br>
