@@ -97,4 +97,14 @@ $("#interactiveBtn2").mouseout(function(){
        }
    });
 
+$("#gallery1").click(function(){
+    $("#galleryImage").attr("src","img/carrousel/photo1.jpg");
+});
+$("#gallery2").click(function(){
+    $("#galleryImage").attr("src","img/carrousel/photo2.jpg");
+});
+$("#gallery3").click(function(){
+    $("#galleryImage").attr("src","img/carrousel/photo3.jpg");
+});
+
 

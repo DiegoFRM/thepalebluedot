@@ -37,6 +37,7 @@ body{
 
 #logoImg{
     transition: all 0.5s;
+    max-height: 70px;
 }
 
 .filter-video{
@@ -185,14 +186,22 @@ body{
     height: 3%;
 }
 
+.sectiongallery{
+}
+
 .carrousel{
-    height: 70%;
+    position: relative;
+    max-width: 800px;
+    left: 50%;
+     transform: translate(-50%,-0%);
     overflow: hidden;
 }
 
 .carrousel img{
     width: 100%;
-    transform: translate(0,-35%);
+    transform: translate(0,-0%);
+    filter: saturate(0.4);
+    transition: all 0.5s;
 }
 
 .menugallery{
@@ -203,15 +212,22 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+     
 }
 
 .menugallery .dotmenugallery{
     position: relative;
-    margin: 0.5vw;
-    background-color: #b1b1b1;
+    margin: 1vw;
+    background-color: #727272;
     border-radius: 50%;
     width: 20px;
     height: 20px;
+    cursor: pointer;
+}
+
+.dotmenugallery:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
 }
 
 .video-cooperative{
