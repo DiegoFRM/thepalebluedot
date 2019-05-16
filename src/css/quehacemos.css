@@ -78,3 +78,7 @@
     position: relative;
 
 }
+
+.infografia{
+    min-width: 80px !important;
+}

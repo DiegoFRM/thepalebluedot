@@ -7,7 +7,7 @@
 .imageContact{
     background-image: url("../img/contactobg.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 0 60%;
 }
 
 
