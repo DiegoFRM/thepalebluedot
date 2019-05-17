@@ -1,0 +1,20 @@
+// archivo login.html
+<table>
+<form name=login action="enviar.php" method="POST">
+           <tr>                   
+               <td align=left>Email:</td>  	  
+               <td><input type=text name=email maxlength="30"></td>     
+               <td><input align="center" onclick=comprobar() type=button value="Entrar" maxlength="30"></td>    
+           </tr>
+</form>
+</table>
+
+<script>
+function comprobar(){
+	if(document.login.email.value == ""){		
+		document.login.email.focus()		
+	}else{
+               // enviamos formulario
+		document.login.submit()
+	}
+</script>
