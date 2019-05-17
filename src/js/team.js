@@ -23,8 +23,7 @@ var photosTeam=[
 ];
 
 var bioTeam = [
-    `Carlos es originario de “El llano en llamas” en Jalisco, México, y su libro favorito es “Pedro
-Páramo”. Tiene más de 15 años de experiencia en Private Equity y Venture Capital. Es
+    `Carlos es originario de “El llano en llamas” en Jalisco, México, y su libro de cabecera es “Pedro Páramo”. Tiene más de 15 años de experiencia en Private Equity y Venture Capital. Es
 también CEO de Kurowi Games, empresa de Ed-Tech dedicada a desarrollar contenido
 educativo digital y juegos de video. Es mentor de emprendedores sociales para programas
 como Momentum de BBVA, y New Ventures Exponential de Fomento Social Banamex.
