@@ -145,12 +145,13 @@ h1{
 .morebtn{
     position: relative;
     background-color: #43B2DB;
-    color:#FFF;
+    color: #FFF;
     width: 30%;
     left: 55%;
     padding: 1vw;
+    margin-top: 3vw;
     border-radius: 0.5vw;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, 0%);
     cursor: pointer;
 }
 
