@@ -129,7 +129,7 @@ h1{
 .img-card{
     width: 80%;
     max-width: 600px;
-    filter: saturate(0);
+    filter: saturate(1);
     transition: all 0.5s;
     cursor: pointer;
 }
@@ -217,7 +217,7 @@ h1{
 .carrousel img{
     width: 100%;
     transform: translate(0,-0%);
-    /*filter: saturate(0.4);*/
+    filter: saturate(0.4);
 }
 
 .menugallery{
