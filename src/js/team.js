@@ -1,14 +1,14 @@
 $("#teamInfo").hide();
 
 var namesTeam = [
-    "<b>Carlos Michel</b> - CEO y fundador",
-    "<b>Verónica Pastrana</b> - Directora de Proyectos",
-    "<b>Pawel Lewinski</b> - Tecnología y Sistemas",
-    "<b>Humberto Zugasti</b> - Contenido educativo y arte",
-    "<b>Alejandra Morales</b> - Comunicación y arte",
-    "<b>Julia Ivalú</b> - Educación y contenido",
-    "<b>Diego Rojas</b> - UX/UI Frontend",
-    "<b>Ignacio Ordoñez</b> - Contabilidad y finanzas"
+    "<b>Carlos Michel</b><br>      CEO y fundador",
+    "<b>Verónica Pastrana</b><br>  Directora de Proyectos",
+    "<b>Pawel Lewinski</b><br>     Tecnología y Sistemas",
+    "<b>Humberto Zugasti</b><br>   Contenido educativo y arte",
+    "<b>Alejandra Morales</b><br>  Comunicación y arte",
+    "<b>Julia Ivalú</b><br>        Educación y contenido",
+    "<b>Diego Rojas</b><br>        UX/UI Frontend",
+    "<b>Ignacio Ordoñez</b><br>    Contabilidad y finanzas"
 
 ]
 
