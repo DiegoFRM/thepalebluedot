@@ -102,3 +102,13 @@ input{
     font-size: 2.5vw;
     font-weight: 800;
 }
+
+@media (orientation:portrait){
+    .textContact{
+        display: none;
+    }
+    
+    .imageContact {
+        height: 40vh;
+    }
+}
