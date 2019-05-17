@@ -7,7 +7,8 @@ var namesTeam = [
     "<b>Humberto Zugasti</b> - Contenido educativo y arte",
     "<b>Alejandra Morales</b> - Comunicación y arte",
     "<b>Julia Ivalú</b> - Educación y contenido",
-    "<b>Diego Rojas</b> - UX/UI Frontend"
+    "<b>Diego Rojas</b> - UX/UI Frontend",
+    "<b>Ignacio Ordoñez</b> - Contabilidad y finanzas"
 
 ]
 
@@ -19,7 +20,8 @@ var photosTeam=[
     "Humberto.png",
     "Ale2.jpg",
     "julia_1.jpg",
-    "Diego.jpg"
+    "Diego.jpg",
+    "ignacio.jpg"
 ];
 
 var bioTeam = [
@@ -79,7 +81,8 @@ cortarse las alas. Sus herramientas predilectas para saciar su necesidad imperio
 En constante búsqueda de su reflejo en la pupila del Otro.    
     
     `,
-    "Diego es el programador frontend The Pale Blue Dot, nacido en la cuna de la mexicanidad Iztapalapa graduado de la carrera de diseño gráfico, pero se enfocó más en la parte de programación donde encontró su pasión, trabajando por 5 años como desarrollador e-learning haciendo interactivos y cursos en línea dio el salto a juegos en HMTL5 para la empresa Yogome. Junto a un gran equipo realizó aplicaciones en línea como reto cuantrix para Televisa.<br><br>Diego le gustan los juegos de arcade y competir con sus amigos en juegos de pelea, y su otra gran pasión son los autos."
+    "Diego es el programador frontend The Pale Blue Dot, nacido en la cuna de la mexicanidad Iztapalapa graduado de la carrera de diseño gráfico, pero se enfocó más en la parte de programación donde encontró su pasión, trabajando por 5 años como desarrollador e-learning haciendo interactivos y cursos en línea dio el salto a juegos en HMTL5 para la empresa Yogome. Junto a un gran equipo realizó aplicaciones en línea como reto cuantrix para Televisa.<br><br>Diego le gustan los juegos de arcade y competir con sus amigos en juegos de pelea, y su otra gran pasión son los autos.",
+    "Ignacio es originario de la Ciudad de México. Orgulloso “Puma” ya que cuenta con una Licenciatura en Contaduría por la Universidad Nacional Autónoma de México. Aparte de sus labores como un especialista fiscal, es también socio accionista de “Cuarto Piso Boutique Audio - Visual” una agencia de medios publicitarios.<br><br> En su tiempo libre goza de la lectura y de la pintura."
 ]
 
 for(var i = 0; i<=photosTeam.length-1;i++){
