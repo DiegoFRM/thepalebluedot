@@ -5,8 +5,8 @@ var namesTeam = [
     "<b>Verónica Pastrana</b> - Directora de Proyectos",
     "<b>Pawel Lewinski</b> - Tecnología y Sistemas",
     "<b>Humberto Zugasti</b> - Contenido educativo y arte",
-    "<b>Alejandra Morales</b> - Comunicación e imagen",
-    "<b>Julia Ivalú</b> - Plataforma educativa",
+    "<b>Alejandra Morales</b> - Comunicación y arte",
+    "<b>Julia Ivalú</b> - Educación y contenido",
     "<b>Diego Rojas</b> - UX/UI Frontend"
 
 ]
