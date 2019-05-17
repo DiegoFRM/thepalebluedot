@@ -34,7 +34,7 @@
     top: 50%;
     left: 50%;
     width: 90%;
-    max-height: 70%;
+    /*max-height: 90%;*/
     transform: translate(-50%,-50%);
     background-color: #FFF;
     border-radius: 1vw;
@@ -74,7 +74,7 @@
 
 .infoTeamScroll{
     overflow-y: scroll;
-    height: 34vh;
+    height: 50vh;
     position: relative;
 
 }
