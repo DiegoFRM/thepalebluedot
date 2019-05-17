@@ -56,7 +56,6 @@
     font-weight: bolder;
     font-size: 4vh;
     right: 0;
-    padding: 0.9vw;
     position: relative;
     text-align: right;
     cursor: pointer;
@@ -81,4 +80,22 @@
 
 body{
     font-size: 18px;
+}
+
+@media (orientation:portrait){
+    #windowteamInfo {
+    
+    }
+    
+    .imagePhoto{
+        margin-top: -10%;
+    }
+    
+    #textInfo{
+        height: 35vh;
+    }
+    
+    .infoTeamScroll {
+    height: auto;
+    }
 }
