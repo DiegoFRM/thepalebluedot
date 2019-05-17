@@ -97,7 +97,8 @@ body{
     }
     
     #textInfo{
-        height: 35vh;
+        height: 40vh;
+        padding: 3vw;
     }
     
     .infoTeamScroll {
