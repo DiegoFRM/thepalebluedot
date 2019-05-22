@@ -38,3 +38,32 @@ $("#openCloseMenu").click(function(){
     $(this).find("i").toggleClass("fa-times");
     $("#menuMovilWindow").toggleClass("activeMenuMovil");
 });
+
+
+
+$( function() {
+
+  $( "#language" ).selectmenu();
+    
+  $language = $('#language');
+  
+
+  $language.on('selectmenuchange', function() {
+	    test();
+  });
+
+  
+  function test()
+  {
+      var selectedOption = $language.find('option:selected').text();
+
+      if ( selectedOption.includes('español') ) {
+         window.open("index.html", "_self");
+        
+        
+      } else {
+         window.open("en/index.html", "_self");
+      }
+  }
+  
+});

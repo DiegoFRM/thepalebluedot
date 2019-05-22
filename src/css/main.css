@@ -343,6 +343,18 @@ a{
     cursor: pointer;
 }
 
+    fieldset {
+      border: 0;
+    }
+    label {
+      display: block;
+      margin: 30px 0 0 0;
+    }
+    .overflow {
+      height: 200px;
+    }
+
+
 /*
 @media (min-width: 410px) {
     body{

@@ -30,8 +30,7 @@ también CEO de Kurowi Games, empresa de Ed-Tech dedicada a desarrollar contenid
 educativo digital y juegos de video. Es mentor de emprendedores sociales para programas
 como Momentum de BBVA, y New Ventures Exponential de Fomento Social Banamex.
 Carlos estudió Administración Financiera en el TEC de Monterrey, y actualmente trata de
-“aprender a aprender” de los grandes: Charlie Munger, Nassim Taleb, Richard Feynman,
-Naval Ravikant, H.G. Wells, Borges...`,
+“aprender a aprender” de los grandes: Charlie Munger, Nassim Taleb, Richard Feynman, Bertrand Russell, Naval Ravikant, H.G. Wells, Borges...`,
     `<i>“La educación es el arma más poderosa que puedes usar para cambiar al mundo”</i>
     <br>- Nelson Mandela
 <br>

@@ -1,0 +1,134 @@
+#topMenu{
+    position: relative;
+    background-color: rgba(250, 250, 250,1);
+    color:#58595B !important;
+}
+
+.imageTeamMain{
+    width: 100%;
+}
+
+.imageTeamMain img{
+    width: 100%;
+}
+
+.imgTeam{
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+#teamInfo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 21;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+#windowteamInfo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    /* max-height: 90%; */
+    transform: translate(-50%,-50%);
+    background-color: #FFF;
+    border-radius: 1vw;
+    font-size: 2.3vh;
+    
+}
+
+.cardMember{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#closeBtnWindow{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 26px;
+    right: 0;
+    position: relative;
+    text-align: right;
+    cursor: pointer;
+    z-index: 123;
+}
+
+.board{
+    background-color: #727272;
+    color:#FFF;
+}
+
+.menuMovil{
+    position: relative;
+}
+
+.infoTeamScroll{
+    overflow-y: scroll;
+    height: 50vh;
+    position: relative;
+    margin-bottom: 2vw;
+}
+
+body{
+    font-size: 18px;
+}
+
+@media (orientation:portrait){
+    #windowteamInfo {
+        width: 90%;
+    }
+    
+    .imagePhoto{
+        margin-top: -10%;
+    height: auto;
+    flex: 100%;
+    max-width: 50%;
+    left: 50%;
+    transform: translate(-50%,0);
+    }
+    
+    #textInfo{
+        height: 40vh;
+        padding: 3vw;
+    }
+    
+    .infoTeamScroll {
+    height: auto;
+    flex: 100%;
+    max-width: 100%;
+    }
+    
+    #nameMemberWindow{
+    font-size: 3vh;
+    margin-top: 10;
+    height: auto;
+    max-width: 100%;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-align: center;
+    margin-bottom: 20;
+        text-align: center;
+    }
+    
+    #closeBtnWindow {
+        font-family: sans-serif;
+        font-weight: bolder;
+        font-size: 26px;
+        right: 0;
+        position: relative;
+        text-align: right;
+        cursor: pointer;
+        z-index: 123;
+        position: absolute;
+    }    
+    
+}
